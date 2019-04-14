@@ -9,7 +9,7 @@ class About extends Component {
             <div className="col-full text-center">
                 <h3>About</h3>
                 <h1>More About Me</h1>
-                <p className="lead">A Software Engineering a.k.a Mobile Fullstack Developer with the infinite passion in Computer Science </p>
+                <p className="lead">A small Software Engineer on the road to Solution Architecture </p>
             </div>
         </div>
 
@@ -19,7 +19,19 @@ class About extends Component {
                 <h3>The story of my life</h3>
 
                 <p>
-                    There was the time that i had studied some fundamental programming with HTML and CSS, after that i started to learn some basic networking and first managed and deployed a simple network domain with Microsoft Windows Server. At that time, i prefered going to be a System Administrator than a Software Engineering. After short period of time, i realized i love building the system, but every system that always required some coding domain knowledge. So i came back to code and went through C programming and Java core programming class of FPT University
+                    There was the time when i started learning some fundamental programming with HTML, CSS with PHP,
+                     after that i learned some basic networking and first managed and deployed
+                     a simple network domain with Microsoft Windows Server.
+                      At that time, i prefered going to be a System Administrator than a Software Engineering.
+                       But after some short period, i figured out that every system that always required some coding domain knowledge.
+                       So i came back to continue coding and went through C programming and Java core programming class of FPT University.
+                        When i was second year student of FPT University, fortunately i got the first intern program as Android Developer at <a href="https://www.facebook.com/skylabvn/">Skylab</a>.
+                         During here, i met a lot of awesome people that guided me and helped me to find out what skills are necessary to work as a Software Engineer.
+                          Six months was short, but i basically learned all of the things that a Software Engineer required.
+                           Then, i joined <a href="https://splus-software.com.vn/">Splus-Software</a> as the Mobile Developer, i have experienced many different working styles from Japanese projects.
+                            These experiences was such a huge impressive. The working cultures, the projects scope, ... All of these that conducted some excellent experiences as Software Engineer.
+                            Right now, i am working mostly from Freelance project but still looking for some good challenges as a Software Engineer but furthermore to be a Solution Architecture.
+
                 </p>
 
 
@@ -28,7 +40,7 @@ class About extends Component {
             <div className="col-six tab-full right">
                 <h3>I've Got Some skills.</h3>
 
-                <ul className="skill-bars">
+                {/* <ul className="skill-bars">
                     <li>
                     <div className="progress percent90"><span>90%</span></div>
                     <strong>HTML5</strong>
@@ -53,18 +65,15 @@ class About extends Component {
                     <div className="progress percent90"><span>90%</span></div>
                     <strong>Angular JS</strong>
                     </li>
-                </ul>
+                </ul> */}
             </div>
 
         </div>
 
         <div className="row about-content about-content--buttons">
 
-            <div className="col-six tab-full left">
-                <a href="#0" className="btn btn--primary full-width">Download My CV</a>
-            </div>
-            <div className="col-six tab-full right">
-                <a href="#0" className="btn full-width">Hire Me Now</a>
+            <div className="col-six tab-full">
+                <a href="https://drive.google.com/file/d/1hHR5q8UpAmRwpgglT00BJDgDM4B8Oq31/view?usp=sharing" className="btn btn--primary full-width">Here My CV</a>
             </div>
 
         </div>
@@ -81,24 +90,30 @@ class About extends Component {
                     <div className="timeline__block">
                         <div className="timeline__bullet"></div>
                         <div className="timeline__header">
-                            <p className="timeline__timeframe">July 2015 - Present</p>
-                            <h3>Awesome Studio</h3>
-                            <h5>Lead Designer</h5>
+                            <p className="timeline__timeframe">October 2018 - Present</p>
+                            <h3>Freelance Developer</h3>
+                            <h5>Fullstack Developer</h5>
                         </div>
                         <div className="timeline__desc">
-                            <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
+                            <p>
+                                    Currently, i am self-employed, i often learn newest technology from over the world and apply it to my customer's projects.
+                                    Not only building website front-end/ mobile application but also design and construct a scalable system with microservice for large requests and specific domain.
+
+                            </p>
                         </div>
                     </div>
 
                     <div className="timeline__block">
                         <div className="timeline__bullet"></div>
                         <div className="timeline__header">
-                            <p className="timeline__timeframe">July 2014 - June 2015</p>
-                            <h3>Super Cool Agency</h3>
-                            <h5>Front-end Developer</h5>
+                            <p className="timeline__timeframe">August 2017 - August 2018 </p>
+                            <h3>Splus Software</h3>
+                            <h5>Fullstack Developer</h5>
                         </div>
                         <div className="timeline__desc">
-                            <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
+                            <p>
+                                Most of my time were working with mobile application, but also maintained backend services in Ruby/Java(Spring boot).
+                            </p>
                         </div>
                     </div>
 
@@ -111,24 +126,16 @@ class About extends Component {
                     <div className="timeline__block">
                         <div className="timeline__bullet"></div>
                         <div className="timeline__header">
-                            <p className="timeline__timeframe">July 2012 - June 2014</p>
-                            <h3>Great Design Studio</h3>
-                            <h5>Web Designer</h5>
+                            <p className="timeline__timeframe">February 2017 - August 2017</p>
+                            <h3>Skylab</h3>
+                            <h5>Mobile Developer</h5>
                         </div>
                         <div className="timeline__desc">
-                            <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi.</p>
-                        </div>
-                    </div>
-
-                    <div className="timeline__block">
-                        <div className="timeline__bullet"></div>
-                        <div className="timeline__header">
-                            <p className="timeline__timeframe">July 2011 - June 2012</p>
-                            <h3>Epic Design Agency</h3>
-                            <h5>Web Designer</h5>
-                        </div>
-                        <div className="timeline__desc">
-                            <p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
+                            <p>
+                                First intern program was good experiences, i was working mostly with Android programming.
+                                 Making some mobile applications and integrated it with backend. Not only working with Android, i also had a chance to work with
+                                  Golang ( backend programming language ) to build some function at the backend side.
+                            </p>
                         </div>
                     </div>
 

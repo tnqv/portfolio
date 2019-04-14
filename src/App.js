@@ -11,8 +11,10 @@ class App extends Component {
         <Header/>
         <Home/>
         <About/>
+        <Blog/>
         <Work/>
         <Footer/>
+        {/* <Stats/> */}
 
     </div>
 
