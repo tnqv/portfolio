@@ -1,6 +1,26 @@
 import React, { Component } from 'react';
+import Parser from 'rss-parser';
 
 export default class Blog extends Component {
+
+   async componentDidMount(){
+        let parser = new Parser();
+        let data = await fetch('https://medium.com/@trnv_88567/latest?format=json');
+
+            console.log(data)
+                // .then(blob => blob.json())
+                // .then(data => {
+                //     console.table(data);
+                //     return data;
+                // })
+                // .catch(e => {
+                //     console.log(e);
+                //     return e;
+                // });
+        // Feed.load("https://medium.com/feed/@trnv_88567/",function(err,rss){
+        //     console.log(rss);
+        // })
+    }
   render() {
     return (
               <section id="blog" className="s-blog target-section">

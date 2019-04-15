@@ -12,7 +12,7 @@ class Footer extends Component {
                       <a className="footer-site-logo" href="#0"><img src="images/logotransparent.png" alt="Homepage"/></a>
                   </div>
 
-                  <ul className="footer-social">
+                  <ul className="footer-social text-center">
                       <li><a href="#0">
                           <i className="im im-facebook" aria-hidden="true"></i>
                           <span>Facebook</span>
@@ -24,14 +24,6 @@ class Footer extends Component {
                       <li><a href="#0">
                           <i className="im im-instagram" aria-hidden="true"></i>
                           <span>Instagram</span>
-                      </a></li>
-                      <li><a href="#0">
-                          <i className="im im-behance" aria-hidden="true"></i>
-                          <span>Behance</span>
-                      </a></li>
-                      <li><a href="#0">
-                          <i className="im im-pinterest" aria-hidden="true"></i>
-                          <span>Pinterest</span>
                       </a></li>
                   </ul>
 

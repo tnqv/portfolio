@@ -10,9 +10,9 @@ export default class Work extends Component {
           <div className="row narrow section-intro has-bottom-sep">
               <div className="col-full">
                   <h3>Portfolio</h3>
-                  <h1>See My Latest Projects.</h1>
+                  <h1>See My Projects.</h1>
 
-                  <p className="lead">These project that i had a chance to participate in</p>
+                  {/* <p className="lead">These project that i had a chance to participate in</p> */}
               </div>
           </div>
 
@@ -55,38 +55,6 @@ export default class Work extends Component {
 
                             </div>
                         </div>
-
-                        <div className="masonry__brick">
-                            <div className="item-folio">
-
-                                <div className="item-folio__thumb">
-                                    <a href="images/portfolio/gallery/g-woodcraft.jpg" className="thumb-link" data-size="1050x700">
-                                        <img src="images/portfolio/woodcraft.jpg"
-                                            srcSet="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt=""/>
-                                        <span className="shadow-overlay"></span>
-                                    </a>
-                                </div>
-
-                                <div className="item-folio__text">
-                                    <h3 className="item-folio__title">
-                                        Woodcraft
-                                    </h3>
-                                    <p className="item-folio__cat">
-                                        Branding
-                                    </p>
-                                </div>
-
-                                <a href="https://www.behance.net/" className="item-folio__project-link" title="Project link">
-                                    <i className="im im-link"></i>
-                                </a>
-
-                                <span className="item-folio__caption">
-                                    <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                                </span>
-
-                            </div>
-                        </div>
-
               </Masonry>
 
 
@@ -94,7 +62,7 @@ export default class Work extends Component {
 
 
 
-                  <div className="masonry__brick">
+                  {/* <div className="masonry__brick">
                       <div className="item-folio">
 
                           <div className="item-folio__thumb">
@@ -123,9 +91,9 @@ export default class Work extends Component {
                           </span>
 
                       </div>
-                  </div>
+                  </div> */}
 
-                  <div className="masonry__brick">
+                  {/* <div className="masonry__brick">
                       <div className="item-folio">
 
                           <div className="item-folio__thumb">
@@ -154,9 +122,9 @@ export default class Work extends Component {
                           </span>
 
                       </div>
-                  </div>
+                  </div> */}
 
-                  <div className="masonry__brick">
+                  {/* <div className="masonry__brick">
                       <div className="item-folio">
 
                           <div className="item-folio__thumb">
@@ -185,9 +153,9 @@ export default class Work extends Component {
                           </span>
 
                       </div>
-                  </div>
+                  </div> */}
 
-                  <div className="masonry__brick">
+                  {/* <div className="masonry__brick">
                       <div className="item-folio">
 
                           <div className="item-folio__thumb">
@@ -216,7 +184,7 @@ export default class Work extends Component {
                           </span>
 
                       </div>
-                  </div>
+                  </div> */}
               </div>
       </section>
     )

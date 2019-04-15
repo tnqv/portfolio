@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ProgrammingComponent from '../Programming/Programming'
 
 class About extends Component {
   render() {
@@ -39,44 +40,29 @@ class About extends Component {
 
             <div className="col-six tab-full right">
                 <h3>I've Got Some skills.</h3>
-
-                {/* <ul className="skill-bars">
-                    <li>
-                    <div className="progress percent90"><span>90%</span></div>
-                    <strong>HTML5</strong>
-                    </li>
-                    <li>
-                    <div className="progress percent85"><span>85%</span></div>
-                    <strong>CSS3</strong>
-                    </li>
-                    <li>
-                    <div className="progress percent70"><span>70%</span></div>
-                    <strong>JQuery</strong>
-                    </li>
-                    <li>
-                    <div className="progress percent95"><span>95%</span></div>
-                    <strong>PHP</strong>
-                    </li>
-                    <li>
-                    <div className="progress percent75"><span>75%</span></div>
-                    <strong>Wordpress</strong>
-                    </li>
-                    <li>
-                    <div className="progress percent90"><span>90%</span></div>
-                    <strong>Angular JS</strong>
-                    </li>
-                </ul> */}
+                <ProgrammingComponent></ProgrammingComponent>
             </div>
 
         </div>
 
         <div className="row about-content about-content--buttons">
 
-            <div className="col-six tab-full">
-                <a href="https://drive.google.com/file/d/1hHR5q8UpAmRwpgglT00BJDgDM4B8Oq31/view?usp=sharing" className="btn btn--primary full-width">Here My CV</a>
+            <div className="col-six tab-full left">
+                <a href="https://drive.google.com/file/d/1hHR5q8UpAmRwpgglT00BJDgDM4B8Oq31/view?usp=sharing" className="btn btn--primary full-width">My CV (EN)</a>
+            </div>
+
+            <div className="col-six tab-full left">
+                <a href="https://drive.google.com/file/d/10h1C_nL_u7SuMi5q1Cp-vy0Oc_sNRJwJ/view?usp=sharing" className="btn btn--primary full-width">My CV (JP)</a>
             </div>
 
         </div>
+
+        <div className="row about-content about-content--buttons">
+
+
+
+        </div>
+
 
         <div className="row about-content about-content--timeline">
 

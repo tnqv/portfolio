@@ -4,20 +4,22 @@
   "private": true,
   "homepage": "https://tnqv.github.io/portfolio/",
   "dependencies": {
+    "extend": ">=3.0.2",
     "gh-pages": "^2.0.1",
     "imagesloaded": "^4.1.4",
+    "lodash": ">=4.17.11",
     "masonry-layout": "^4.2.1",
-    "react": "^16.4.1",
-    "react-dom": ">=16.4.2",
-    "react-dev-utils": ">=5.0.2",
+    "material-ui": "^0.20.2",
     "merge": ">=1.2.1",
-    "url-parse": ">=1.4.3",
+    "react": "^16.4.1",
+    "react-dev-utils": ">=5.0.2",
+    "react-dom": ">=16.4.2",
     "react-masonry-component": "^6.2.1",
     "react-parallax": "^1.7.0",
     "react-scripts": "1.1.4",
+    "rss-parser": "^3.7.0",
     "rss-to-json": "^1.0.4",
-    "extend": ">=3.0.2",
-    "lodash": ">=4.17.11"
+    "url-parse": ">=1.4.3"
   },
   "scripts": {
     "start": "react-scripts start",

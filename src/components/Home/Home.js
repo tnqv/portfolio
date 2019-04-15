@@ -41,15 +41,11 @@ class Home extends Component {
           </div>
 
           <ul className="home-social">
-
               <li>
-                  <a href="#"><i className="im im-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+                  <a href="#"><i className="im im-twitter" aria-hidden="true"></i><span>Twitter</span></a>
               </li>
               <li>
                   <a href="#"><i className="im im-instagram" aria-hidden="true"></i><span>Instagram</span></a>
-              </li>
-              <li>
-                  <a href="#"><i className="im im-line" aria-hidden="true"></i><span>Behance</span></a>
               </li>
           </ul>
 
