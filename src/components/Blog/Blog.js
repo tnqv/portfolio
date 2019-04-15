@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-import Parser from 'rss-parser';
 
 export default class Blog extends Component {
 
    async componentDidMount(){
-        let parser = new Parser();
-        let data = await fetch('https://medium.com/@trnv_88567/latest?format=json');
+        // let parser = new Parser();
+        // let data = await fetch('https://medium.com/@trnv_88567/latest?format=json');
 
-            console.log(data)
+            // console.log(data)
                 // .then(blob => blob.json())
                 // .then(data => {
                 //     console.table(data);
